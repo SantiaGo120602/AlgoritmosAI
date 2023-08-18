@@ -63,6 +63,6 @@ def genetic_algorithm(target_string, population_size, mutation_rate, generations
             new_population.extend([child1, child2])
         
         population = new_population
-
+    print(population)
 # Run the genetic algorithm
 genetic_algorithm(TARGET_STRING, POPULATION_SIZE, MUTATION_RATE, generations=1000)
